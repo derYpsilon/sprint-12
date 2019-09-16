@@ -13,6 +13,15 @@
   },
   "dependencies": {
     "eslint-config-airbnb-base": "^14.0.0",
-    "eslint-plugin-import": "^2.18.2"
-  }
+    "eslint-plugin-import": "^2.18.2",
+    "express": "^4.17.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/derYpsilon/sprint-12.git"
+  },
+  "bugs": {
+    "url": "https://github.com/derYpsilon/sprint-12/issues"
+  },
+  "homepage": "https://github.com/derYpsilon/sprint-12#readme"
 }
