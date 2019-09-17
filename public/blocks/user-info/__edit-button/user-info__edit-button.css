@@ -1,0 +1,8 @@
+.button.user-info__edit-button {
+    font-family: Inter;
+    font-size: .75rem;
+    margin-top: 24px;
+    width: 38px;
+    height: 18px;
+    display: inline-block;
+}

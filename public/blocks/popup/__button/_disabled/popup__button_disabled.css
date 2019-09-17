@@ -1,0 +1,9 @@
+.button.popup__button.popup__button_disabled {
+    width: 100%;
+    height: 50px;
+    background-color: #ffffff;
+    border: 1px solid rgba(0, 0, 0, .2);
+    margin-top: 48px;
+    color: rgba(0, 0, 0, .2);
+    font-size: 36px;
+}

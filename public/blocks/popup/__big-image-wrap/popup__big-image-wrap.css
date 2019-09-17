@@ -1,0 +1,5 @@
+.popup__big-image-wrap {
+    position: relative;
+    animation-name: zoom;
+    animation-duration: 0.4s;
+}

@@ -1,0 +1,11 @@
+@import url(./_disabled/popup__button_disabled.css);
+
+.button.popup__button {
+  width: 100%;
+  height: 50px;
+  background-color: black;
+  border: 1px solid black;
+  margin-top: 48px;
+  color: #ffffff;
+  font-size: 36px;
+}

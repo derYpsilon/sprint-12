@@ -4,8 +4,8 @@
   "description": "Study server with express.js",
   "main": "app.js",
   "scripts": {
-    "dev": "PORT=3000 nodemon app.js",
-    "start": "PORT=3000 node app.js"
+    "dev": "BASE_PATH='localhost' PORT=3000 nodemon app.js",
+    "start": "BASE_PATH='localhost' PORT=3000 node app.js"
   },
   "author": "Alexey Tsitskun",
   "license": "ISC",

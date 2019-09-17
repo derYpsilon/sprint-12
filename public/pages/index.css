@@ -1,0 +1,54 @@
+@import url(../vendor/normalize.css);
+@import url(../vendor/fonts.css);
+@import url(../blocks/root/root.css);
+@import url(../blocks/header/header.css);
+@import url(../blocks/logo/logo.css);
+@import url(../blocks/profile/profile.css);
+@import url(../blocks/user-info/user-info.css);
+@import url(../blocks/button/button.css);
+@import url(../blocks/places-list/places-list.css);
+@import url(../blocks/place-card/place-card.css);
+@import url(../blocks/popup/popup.css);
+
+@keyframes zoom {
+  from {
+    transform: scale(0)
+  }
+
+  to {
+    transform: scale(1)
+  }
+}
+
+@keyframes error__app {
+  from {
+    opacity: 0
+  }
+
+  to {
+    opacity: 1
+  }
+}
+
+body {
+  background-color: #000;
+}
+.error__container {
+  transform: translateX(-50%);
+  position: absolute;
+  top: 0;
+  left: 50vw;
+}
+.error__message { 
+  display: block;
+  color: white;
+  background-color: maroon;
+  padding: 10px;
+  font-size: 0.8rem;
+  font-family: 'Inter';
+  text-decoration: none;
+  margin-bottom: 5px;
+  z-index: 20;
+  animation-name: error__app;
+  animation-duration: 0.4s;
+}
