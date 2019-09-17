@@ -4,7 +4,7 @@ module.exports = {
     "es6": true,
     "node": true
   },
-  "extends": "eslint:recommended",
+  "extends": "airbnb-base",
   "globals": {
     "Atomics": "readonly",
     "SharedArrayBuffer": "readonly"
@@ -14,5 +14,10 @@ module.exports = {
     "sourceType": "module"
   },
   "rules": {
+    "semi": ["error", "never"],
+    "prefer-rest-params": 0,
+    "no-plusplus": 0,
+    "no-console": 0,
+    "no-underscore-dangle": 0
   }
 };

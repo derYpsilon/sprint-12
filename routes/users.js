@@ -1,9 +1,9 @@
 const users = require('express').Router()
-const jsonReader = require('../modules/jsonreader')
 const path = require('path')
+const jsonReader = require('../modules/jsonreader')
 
 const sendUserInformation = (req, res) => {
-  const getUser = data => {
+  const getUser = (data) => {
     if (data !== undefined) {
       for (let i = 0; i < data.length; i++) {
         if (data[i]._id === req.params.id) {
@@ -20,7 +20,7 @@ const sendUserInformation = (req, res) => {
 }
 
 const readUsersList = (req, res) => {
-  const getObject = data => {
+  const getObject = (data) => {
     if (data !== undefined) {
       res.send(data)
     } else {
