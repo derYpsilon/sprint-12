@@ -3,7 +3,7 @@ const path = require('path')
 const usersRoute = require('./routes/users')
 const cardsRoute = require('./routes/cards')
 
-const { PORT, BASE_PATH } = process.env
+const { PORT = 3000 } = process.env
 const app = express()
 
 app.use(express.static(path.join(__dirname, 'public')))
@@ -14,5 +14,5 @@ app.get('*', (req, res) => {
 })
 
 app.listen(PORT, () => {
-  console.log('App is listening to port ', PORT, ' base path ', BASE_PATH)
+  console.log('App is listening to port ', PORT)
 })
